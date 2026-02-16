@@ -1,0 +1,98 @@
+#root {
+  width: 100%;
+  padding: 2rem;
+}
+
+.flight-search {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.flight-search h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.form .row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.toggle-row {
+  gap: 0.5rem;
+}
+
+.toggle-row button {
+  padding: 0.5rem 1rem;
+}
+
+.toggle-row button.active {
+  border-color: #646cff;
+  background-color: rgba(100, 108, 255, 0.15);
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  flex: 1;
+}
+
+.form select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #444;
+}
+
+.form select:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.search-btn {
+  margin-top: 0.5rem;
+}
+
+.loading,
+.error {
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.error {
+  color: #f66;
+}
+
+.results {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #444;
+}
+
+.selected {
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.no-flights {
+  color: #888;
+}
+
+.flight-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.flight-list li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #333;
+}
+
+.flight-list li:last-child {
+  border-bottom: none;
+}
